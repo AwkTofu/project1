@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-    <display-name>auth-demo</display-name>
+    <display-name>expenseReimbursement</display-name>
 
     <servlet>
         <servlet-name>AuthServlet</servlet-name>
-        <servlet-class>com.revature.servlets.AuthServlet</servlet-class>
+        <servlet-class>reimburstment.servlets.AuthServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>AuthServlet</servlet-name>
@@ -12,12 +12,31 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>UserServlet</servlet-name>
-        <servlet-class>com.revature.servlets.UserServlet</servlet-class>
+        <servlet-name>AccountServlet</servlet-name>
+        <servlet-class>reimburstment.servlets.AccountServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>UserServlet</servlet-name>
-        <url-pattern>/users</url-pattern>
+        <servlet-name>AccountServlet</servlet-name>
+        <url-pattern>/accounts</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReimburstServlet</servlet-name>
+        <servlet-class>reimburstment.servlets.ReimbursementServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReimburstServlet</servlet-name>
+        <url-pattern>/reimburstment/create</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReimburstUpdateServlet</servlet-name>
+        <servlet-class>reimburstment.servlets.ReimbursementUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReimburstUpdateServlet</servlet-name>
+        <url-pattern>/reimburstment/update</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>
