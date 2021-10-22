@@ -22,7 +22,7 @@ public class ReimbursementServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String authToken = req.getHeader("authorization");
 
-        System.out.println(authToken);
+        //System.out.println(authToken);
 
         boolean tokenIsValidFormat = authService.validateToken(authToken);
         if (!tokenIsValidFormat) {
@@ -37,7 +37,7 @@ public class ReimbursementServlet extends HttpServlet {
                 resp.setStatus(200);
                 try(PrintWriter pw = resp.getWriter();){
                     ArrayList<Reimbursement> allReimbursements = reimbursementService.getAllReimbursement();
-                    System.out.println(allReimbursements + " " + owner);
+                    //System.out.println(allReimbursements + " " + owner);
                     ObjectMapper om = new ObjectMapper();
 
                     String userJson = om.writeValueAsString(allReimbursements);

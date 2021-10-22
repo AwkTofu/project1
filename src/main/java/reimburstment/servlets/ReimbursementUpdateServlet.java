@@ -40,7 +40,7 @@ public class ReimbursementUpdateServlet extends HttpServlet {
                     resp.sendError(404, "Can't find reimbursement on server");
                 else
                 {
-                    System.out.println(realReimburseID);
+                    //System.out.println(realReimburseID);
                     reimbursementService.updateReimbursement(realReimburseID, manager, status);
                 }
 

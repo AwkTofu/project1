@@ -33,6 +33,7 @@ public class AuthService {
     {
         String[] tokenArr = authToken.split(":");
         int id = Integer.parseInt(tokenArr[0]);
+        //System.out.println("ID+ "+ id + " result:"+accountService.getAccountById(id));
         return accountService.getAccountById(id);
     }
 

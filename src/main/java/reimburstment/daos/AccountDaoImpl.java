@@ -79,6 +79,8 @@ public class AccountDaoImpl implements AccountDao{
 
     @Override
     public Account getAccountById(int id) {
+        accounts = getAll();
+
         for(Account a: accounts) {
            if (a.getId() == id)
                return a;
@@ -88,6 +90,8 @@ public class AccountDaoImpl implements AccountDao{
 
     @Override
     public Account getAccountByUsernameAndPassword(String username, String password){
+        accounts = getAll();
+
         for (Account a: accounts)
         {
             if (a.getUsername() != null && a.getUsername().equals(username))
@@ -122,6 +126,9 @@ public class AccountDaoImpl implements AccountDao{
             int newID = rs.getInt(1);
             Account newAcc = new Account(newID, username, password, firstName, lastName, email, accountType);
             accounts.add(newAcc);
+
+            //System.out.println(newAcc);
+            //System.out.println(accounts);
             return true;
         } catch (SQLException e) {
             e.printStackTrace();

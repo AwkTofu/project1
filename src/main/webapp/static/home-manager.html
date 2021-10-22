@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<title>Manager Home</title>
 </head>
-<body>
+<body class="p-3 mb-2 bg-secondary text-white">
 
 	<div hidden id="error-div"></div>
-	<h1>Manager Home<button id="logoutButton">Logout</button></h1>
+	<h1 class="d-flex justify-content-center">Manager Home<button id="logoutButton">Logout</button></h1>
 
+	<h3 class="d-flex justify-content-center">Personal Information</h3>
+	<div id="Personal Information" >
+		<label>Name:</label>
+		<input name="firstName" id="firstName">
+		<input name="lastName" id="lastName"> <br>
+
+		<label>Email:</label>
+		<input name="email" id="email"> <br>
+
+		<label>Role:</label>
+		<span id="role"></span>
+
+		<button id="updatePersonalInfo">Update!</button>
+	</div>
+
+	<h3 class="d-flex justify-content-center">Employees</h3>
 	<div class="AllEmployee">
-		<table id= "EmployeeTable">
+		<table id= "EmployeeTable" class="table table-hover table-dark ">
 			<tr>
-				<th>
+				<th class="th-sm" data-order='desc'>
 					Account ID
 				</th>
-				<th>
+				<th class="th-sm">
 					First Name
-				</th>
+				</th class="th-sm">
 				<th>
 					Last Name
 				</th>
-				<th>
+				<th class="th-sm">
 					Email
 				</th>
 			</tr>
 		</table>
 	</div>
 
-	<div id="statusChange">
+	<h3 class="d-flex justify-content-center">Reimbursements</h3>
+	<div id="statusChange" class="d-flex justify-content-center">
 		<label id="statusChangeLabel">Change Status: </label>
 		<select name="listOfReimburseID" id="listOfReimburseID"> </select>
 		<select name="status" id="status">
@@ -39,11 +58,15 @@
 	</div>
 
 	<div class="AllReimbursement">
-		<table id= "ReimburseTable">
+		<table id= "ReimburseTable" class="table table-hover table-dark ">
 		
 		</table>
 	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="home-manager.js"></script>
 </body>
 </html>
 
-<script src="home-manager.js"></script>

@@ -59,7 +59,7 @@ function attemptLogin(){
 }
 
 
-function fetchLogin() {
+/*function fetchLogin() {
     const errorDiv = document.getElementById("error-div");
     errorDiv.hidden = true;
 
@@ -81,4 +81,10 @@ function fetchLogin() {
     .then(respond => {
         console.log(respond)
     })
+}*/
+
+let registerButton = () => {
+    window.location.href="http://localhost:8082/expenseReimbursement/static/register.html";
 }
+
+document.getElementById("createAcc-btn").addEventListener("click", registerButton);

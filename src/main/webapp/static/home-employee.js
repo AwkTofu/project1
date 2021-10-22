@@ -17,11 +17,11 @@ let displayReimbursement = reimbursement => {
 
     //recreating the header of the table
     let head = document.createElement('tr');
-    head.innerHTML = '<tr><th> Reimburse ID </th>' +
-                '<th> Owner</th>' +
-                '<th> Amount </th>' +
-                '<th> Status </th>' +
-                '<th> Manager </th></tr>';
+    head.innerHTML = '<tr><th scope="col"> Reimburse ID </th>' +
+                '<th scope="col"> Owner</th>' +
+                '<th scope="col"> Amount </th>' +
+                '<th scope="col"> Status </th>' +
+                '<th scope="col"> Manager </th></tr>';
     reimburseTable.appendChild(head);
 
 
@@ -85,7 +85,26 @@ if (!sessionStorage.token || sessionStorage.token.split(":")[1] !== "EMPLOYEE")
     logoutOnClick();
 }
 
+//Get Personal Information
+let getPersonalInfo = () => {
+    let firstName = document.getElementById("firstName");
+    let lastName = document.getElementById("lastName");
+    let email = document.getElementById("email");
+    let role = document.getElementById("role");
+
+    console.log("Before Fetch")
+
+    fetch("http://localhost:8082/expenseReimbursement/login", {headers: {"Authorization" : token}})
+    .then(response => {
+        console.log(response);
+    return response.json()}) //converts JSON response body into JS objects
+    .then(r => {
+        console.log(r);
+    });
+}
+
 getAllReimbursementsSelf();
+getPersonalInfo();
 
 //Give logoutButton onclick
 let logoutButton = document.getElementById("logoutButton");

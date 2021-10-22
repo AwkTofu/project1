@@ -18,7 +18,6 @@ let displayReimbursement = reimbursement => {
     //recreating the header of the table
     let head = document.createElement('tr');
     head.innerHTML = '<tr><th> Reimburse ID </th>' +
-                '<th> Owner</th>' +
                 '<th> Amount </th>' +
                 '<th> Status </th>' +
                 '<th> Manager </th></tr>';
@@ -28,7 +27,6 @@ let displayReimbursement = reimbursement => {
     reimbursement.forEach (reimburse => {
         let tr = document.createElement('tr');
         tr.innerHTML = '<td>' + reimburse.id + "</td>" +
-                        '<td>' + reimburse.owner_id + "</td>" +
                         '<td>' + formatter.format(reimburse.amount) + "</td>" +
                         '<td>' + reimburse.status + "</td>" +
                         '<td>' + reimburse.manager_id + "</td>";
@@ -85,7 +83,28 @@ if (!sessionStorage.token || sessionStorage.token.split(":")[1] !== "EMPLOYEE")
     logoutOnClick();
 }
 
+//Get Personal Information
+let getPersonalInfo = () => {
+    let firstName = document.getElementById("firstName");
+    let lastName = document.getElementById("lastName");
+    let email = document.getElementById("email");
+    let role = document.getElementById("role");
+
+    console.log("Before Fetch", role);
+
+    fetch("http://localhost:8082/expenseReimbursement/login", {headers: {"Authorization" : sessionStorage.token}})
+    .then(response => response.json()) //converts JSON response body into JS objects
+    .then(r => {
+        console.log(r);
+        firstName.value = r.firstName;
+        lastName.value = r.lastName;
+        r.email ? email.value = r.email : email.placeholder = r.email;
+        role.innerHTML = r.accountType;
+    });
+}
+
 getAllReimbursementsSelf();
+getPersonalInfo();
 
 //Give logoutButton onclick
 let logoutButton = document.getElementById("logoutButton");

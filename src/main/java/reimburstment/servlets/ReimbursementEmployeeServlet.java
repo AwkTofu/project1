@@ -62,6 +62,7 @@ public class ReimbursementEmployeeServlet extends HttpServlet {
         } else {
 
             Account owner = authService.findAccountByToken(authToken);
+            //System.out.println(owner);
             if (owner == null)
                 resp.sendError(403, "Token invalid");
             else {

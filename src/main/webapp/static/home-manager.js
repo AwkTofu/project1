@@ -35,11 +35,11 @@ let displayReimbursement = reimbursement => {
 
     //recreating the header of the table
     let head = document.createElement('tr');
-    head.innerHTML = '<tr><th> Reimburse ID </th>' +
-                '<th> Owner</th>' +
-                '<th> Amount </th>' +
-                '<th> Status </th>' +
-                '<th> Manager </th></tr>';
+    head.innerHTML = '<tr><th scope="col"> Reimburse ID </th>' +
+                '<th scope="col" data-sortable="true" data-order="desc"> Owner</th>' +
+                '<th scope="col"> Amount </th>' +
+                '<th scope="col"> Status </th>' +
+                '<th scope="col"> Manager </th></tr>';
     reimburseTable.appendChild(head);
 
 
@@ -103,12 +103,33 @@ let logoutOnClick = () => {
     window.location.href=loginURL;
 }
 
+//Get Personal Information
+let getPersonalInfo = () => {
+    let firstName = document.getElementById("firstName");
+    let lastName = document.getElementById("lastName");
+    let email = document.getElementById("email");
+    let role = document.getElementById("role");
+
+    //console.log("Before Fetch", role);
+
+    fetch("http://localhost:8082/expenseReimbursement/login", {headers: {"Authorization" : sessionStorage.token}})
+    .then(response => response.json()) //converts JSON response body into JS objects
+    .then(r => {
+        //console.log(r);
+        firstName.value = r.firstName;
+        lastName.value = r.lastName;
+        r.email ? email.value = r.email : email.placeholder = r.email;
+        role.innerHTML = r.accountType;
+    });
+}
+
 //Check if token exist and if it's even manager
 if (!sessionStorage.token || sessionStorage.token.split(":")[1] !== "MANAGER")
 {   //If your role isn't right, logs you out and send to login screen
     logoutOnClick();
 }
 
+getPersonalInfo();
 getAllEmployee();
 getAllReimbursements();
 
