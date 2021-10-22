@@ -1,0 +1,374 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"cure",
+				"currentLine"
+			],
+			[
+				"move",
+				"moveSpeed"
+			],
+			[
+				"get",
+				"GetComponent"
+			],
+			[
+				"c",
+				"countDown"
+			],
+			[
+				"curr",
+				"currentShield"
+			],
+			[
+				"Game",
+				"GameObject"
+			],
+			[
+				"shi",
+				"theShield"
+			],
+			[
+				"Ran",
+				"RandomSpawn"
+			],
+			[
+				"Gam",
+				"GameObject"
+			],
+			[
+				"Sqr",
+				"Sqr_AI"
+			],
+			[
+				"x",
+				"xDirSpd"
+			],
+			[
+				"Rect",
+				"RectTransform"
+			],
+			[
+				"transfor",
+				"RectTransform"
+			],
+			[
+				"padd",
+				"padding-right\tproperty"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"backgoun",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Revature/Training/angular/my-app/src/app/app.component.html",
+		"/D/Revature/Training/angular/my-app/src/app/hero-detail/hero-detail.component.ts",
+		"/D/Revature/Training/angular/my-app/src/app/hero-detail/hero-detail.component.html",
+		"/D/Revature/Training/angular/my-app/src/app/app.module.ts",
+		"/D/Revature/Training/angular/my-app/src/app/heroes/heroes.component.spec.ts",
+		"/D/Revature/Training/angular/my-app/src/app/heroes/heroes.component.ts",
+		"/D/Revature/Training/angular/my-app/src/app/heroes/heroes.component.html",
+		"/D/Revature/Training/angular/my-app/src/app/heroes/heroes.component.css",
+		"/D/Revature/Training/angular/my-app/src/app/mock-heroes.ts",
+		"/D/Revature/Training/angular/my-app/src/index.html",
+		"/D/Revature/Training/angular/my-app/src/app/hero.ts",
+		"/D/Revature/Training/angular/my-app/src/app/app.component.spec.ts",
+		"/D/Revature/Training/project0/project-0-requirements.md",
+		"/D/Revature/Training/project0/Cheats",
+		"/D/[Download] Google Chrome/LonaRPG/Data/Scripts/Editables/92_Game_Actor_Traits.rb",
+		"/D/Revature/Training/html-exercise/form.css",
+		"/D/Revature/Training/html-exercise/form.html",
+		"/D/Revature/Training/html-exercise/index.html",
+		"/D/Revature/Training/html-exercise/css.css",
+		"/C/Users/merry/Desktop/Translation/Character Relationship",
+		"/C/Users/merry/Desktop/Translation/Prologue Draft 1",
+		"/D/Games/Fable  3/Fable III/data/startup.vfsconfig",
+		"/F/Games/BlueStacks_arabica/Engine/UserData/InputMapper/UserFiles/com.riotgames.league.wildrift.cfg",
+		"/D/[Download] Google Chrome/[Web Games]/YM-Offline/Young Maria v10.1.0 (Offline).html",
+		"/D/[Download] Google Chrome/TentacleSlave-0.25-pc/renpy/script.py",
+		"/D/[Download] Google Chrome/TentacleSlave-0.25-pc/renpy/ast.py",
+		"/D/[Download] Google Chrome/Tower of Ardia v1.001/hentabedta.net.url",
+		"/D/[Download] Google Chrome/Tower of Ardia v1.001/credits.html",
+		"/F/Games/Steam/steamapps/common/Don't Starve Together Dedicated Server/mods/dedicated_server_mods_setup.lua",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether_EasyConfigOverworld/Cluster_1/cluster.ini",
+		"/C/Users/merry/Desktop/CurrentProject/PersonalNewsFrontend/src/App.js",
+		"/C/Users/merry/Desktop/CurrentProject/PressingGameClone/dev/pressing-game/utils.js",
+		"/C/Users/merry/Desktop/CurrentProject/Hackaton/Frontend-React-Native/App.js",
+		"/C/Users/merry/Desktop/CurrentProject/Hackaton/Frontend-React-Native/.gitignore",
+		"/C/Users/merry/Desktop/CurrentProject/Algorithm/GeneralAlgorithm/greedy_algorithm.js",
+		"/C/Users/merry/Desktop/CurrentProject/Algorithm/GeneralAlgorithm/greedy_algorithm.txt",
+		"/C/Users/merry/Desktop/CurrentProject/Algorithm/test.js",
+		"/C/Users/merry/Desktop/CurrentProject/Algorithm/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/Algorithm/SortAlgorithm/bubble_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/LinkedListJS/linked_list.js",
+		"/C/Users/merry/Desktop/CurrentProject/Algorithm/SortAlgorithm/merge_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/Algorithm/SortAlgorithm/insert_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/Algorithm/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/JumpSearchJS/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/JumpSearchJS/jump_search.js",
+		"/C/Users/merry/Desktop/CurrentProject/BinarySearch/binary_search.js",
+		"/C/Users/merry/Desktop/CurrentProject/CocktailSortJS/cocktail_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/JumpSearchJS/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/LinkedListJS/cocktail_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/LinkedListJS/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/ExponentialSearchJS/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/CocktailSortJS/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/BinarySearch/Readme.md",
+		"/C/Users/merry/Desktop/CurrentProject/BinarySearch/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/BinarySearch/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/LeetCodeChallenges/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/LeetCodeChallenges/test.js",
+		"/C/Users/merry/Desktop/CurrentProject/ShellSortJS/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/CocktailSortJS/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/Hackaton/Frontend-React-Native/components/Map.js",
+		"/C/Users/merry/Desktop/CurrentProject/Hackaton/Frontend-React-Native/screens/MapScreen.js",
+		"/C/Users/merry/Desktop/CurrentProject/LeetCodeChallenges/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/SVG_text_in_javascript/svg_text_append.js",
+		"/C/Users/merry/Desktop/CurrentProject/SVG_text_in_javascript/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/LeetCodeChallenges/longest_substring_wo_repeat_char.js",
+		"/C/Users/merry/Desktop/CurrentProject/LeetCodeChallenges/add_two_numbers.js",
+		"/C/Users/merry/Desktop/CurrentProject/LeetCodeChallenges/reverse_integer.js",
+		"/C/Users/merry/Desktop/CurrentProject/LeetCodeChallenges/add_two_numbers",
+		"/C/Users/merry/Desktop/CurrentProject/LeetCodeChallenges/two_sums.js",
+		"/C/Users/merry/Desktop/CurrentProject/QuickSortJS/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/QuickSortJS/quick_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/ShellSortJS/shell_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/ShellSortJS/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/InsertionSortJS/insert_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/InsertionSortJS/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/InsertionSortJS/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/PressingGameClone/dev/index.htm",
+		"/C/Users/merry/Desktop/CurrentProject/GithubPagesTest/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/PressingGameClone/.git/config",
+		"/C/Users/merry/Desktop/CurrentProject/BubbleSortJS/bubble_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/QuickSortJS/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/BubbleSortJS/README.md",
+		"/C/Users/merry/Desktop/CurrentProject/BubbleSortJS/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/BubbleSort/index.html",
+		"/C/Users/merry/Desktop/CurrentProject/BubbleSort/bubble_sort.js",
+		"/C/Users/merry/Desktop/CurrentProject/BubbleSort/index.js",
+		"/C/Users/merry/Desktop/CurrentProject/Tap_It/.gitignore",
+		"/C/Users/merry/Desktop/CurrentProject/LeagueBuilderFrontend-master/src/App.css",
+		"/C/Users/merry/Desktop/CurrentProject/LeagueBuilderFrontend-master/src/index.css",
+		"/C/Users/merry/Desktop/CurrentProject/LeagueBuilderFrontend-master/src/index.js",
+		"/C/Users/merry/Desktop/CurrentProject/Tap_It(Old)/.gitignore",
+		"/C/Users/merry/Desktop/CurrentProject/Tap_It(Working Title)/.gitignore",
+		"/C/Users/merry/Documents/Electronic Arts/The Sims 4/lastException_63716036091.txt",
+		"/C/Users/merry/Documents/Electronic Arts/The Sims 4/lastException_63716030567.txt",
+		"/C/Users/merry/Desktop/index.html",
+		"/C/Users/merry/Desktop/index.js",
+		"/C/Users/merry/Desktop/Translation/V1C1 MTL",
+		"/C/Users/merry/Desktop/Translation/V1C1 Draft 1.txt",
+		"/F/Games/Steam/steamapps/common/Don't Starve Together Dedicated Server/mods/modoverrides.lua",
+		"/C/Users/merry/AppData/Local/Remnant/Saved/SaveGames/save_0.sav",
+		"/C/Users/merry/AppData/Local/Remnant/Saved/SaveGames/save_0.bak",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_1/Master/modoverrides.lua",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/Cluster_1/Master/save/modindex",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether_EasyConfigOverworld/Cluster_1/Master/modoverrides.lua",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether_EasyConfigCaves/Cluster_1/Master/modoverrides.lua",
+		"/F/Games/Steam/steamapps/common/Don't Starve Together Dedicated Server/mods/modsettings.lua",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether_EasyConfigOverworld/Cluster_1/Master/worldgenoverride.lua",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether_EasyConfigOverworld/Cluster_1/Master/server.ini",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether_EasyConfigCaves/Cluster_1/Master/server.ini",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether_EasyConfigCaves/Cluster_1/Master/worldgenoverride.lua",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether_EasyConfigOverworld/Cluster_1/cluster_token",
+		"/C/Users/merry/Desktop/Translation/Prologue Draft 2",
+		"/C/Users/merry/Downloads/Prologue_Draft_1_Complete",
+		"/F/Games/Steam/steamapps/common/Don't Starve Together Dedicated Server/bin/steam_appid.txt",
+		"/F/Games/Steam/steamapps/common/Don't Starve Together Dedicated Server/version.txt",
+		"/F/Games/Steam/steamapps/common/Don't Starve Together Dedicated Server/installscript_new.vdf",
+		"/F/Games/Steam/steamapps/common/Don't Starve Together Dedicated Server/data/scripts_readme.txt",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_3/Master/save/session/21FD667387057F08/0000000014",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_3/Master/save/session/21FD667387057F08/0000000013",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_3/Master/save/session/21FD667387057F08/0000000016",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_3/Master/save/session/21FD667387057F08/0000000015",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_3/Master/save/session/21FD667387057F08/0000000012",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_3/Master/save/session/21FD667387057F08/0000000011",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_3/Master/server_chat_log.txt",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_3/Master/server_log.txt",
+		"/C/Users/merry/Documents/Klei/DoNotStarveTogether/93740179/Cluster_3/Master/server.ini",
+		"/C/Users/merry/Desktop/Team_Ideas.txt",
+		"/C/Users/merry/Desktop/CurrentProject/Distance/Assets/Script/PlayerMovement.cs"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "login.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

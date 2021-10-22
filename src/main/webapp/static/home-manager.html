@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manager Home</title>
+</head>
+<body>
+
+	<div hidden id="error-div"></div>
+	<h1>Manager Home<button id="logoutButton">Logout</button></h1>
+
+	<div class="AllEmployee">
+		<table id= "EmployeeTable">
+			<tr>
+				<th>
+					Account ID
+				</th>
+				<th>
+					First Name
+				</th>
+				<th>
+					Last Name
+				</th>
+				<th>
+					Email
+				</th>
+			</tr>
+		</table>
+	</div>
+
+	<div id="statusChange">
+		<label id="statusChangeLabel">Change Status: </label>
+		<select name="listOfReimburseID" id="listOfReimburseID"> </select>
+		<select name="status" id="status">
+			<option value="PENDING" selected="selected">PENDING</option>
+			<option value="APPROVED">APPROVED</option>
+			<option value="DENIED">DENIED</option>
+		</select>
+		<button id="statusChangeButton">Change</button>
+	</div>
+
+	<div class="AllReimbursement">
+		<table id= "ReimburseTable">
+		
+		</table>
+	</div>
+</body>
+</html>
+
+<script src="home-manager.js"></script>

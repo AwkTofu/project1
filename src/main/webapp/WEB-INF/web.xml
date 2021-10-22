@@ -26,6 +26,15 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>ReimburstServlet</servlet-name>
+        <url-pattern>/reimburstment</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReimburstEmployeeServlet</servlet-name>
+        <servlet-class>reimburstment.servlets.ReimbursementEmployeeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReimburstEmployeeServlet</servlet-name>
         <url-pattern>/reimburstment/create</url-pattern>
     </servlet-mapping>
 

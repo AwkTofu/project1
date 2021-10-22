@@ -1,7 +1,9 @@
 package reimburstment.servlets;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import reimburstment.models.Account;
+import reimburstment.models.Reimbursement;
 import reimburstment.services.AccountService;
 
 import javax.servlet.ServletException;
@@ -9,6 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
 
 public class AuthServlet extends HttpServlet {
     private AccountService accService = new AccountService();
@@ -19,6 +23,7 @@ public class AuthServlet extends HttpServlet {
         String passParam = req.getParameter("password");
 
         System.out.println("Credentials received: "+userParam +" "+passParam);
+        //System.out.println("Test: "+req.);
 
         Account account = accService.getAccountByCredentials(userParam, passParam);
         //System.out.println(account);
@@ -31,7 +36,6 @@ public class AuthServlet extends HttpServlet {
 
             String token = account.getId() + ":" + account.getAccountType();
             resp.setHeader("Authorization", token);
-            //System.out.println(token);
         }
     }
 }

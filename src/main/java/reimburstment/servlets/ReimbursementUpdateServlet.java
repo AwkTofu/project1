@@ -23,6 +23,7 @@ public class ReimbursementUpdateServlet extends HttpServlet {
         String reimburseID = req.getParameter("reimburseid");
         String status = req.getParameter("status");
 
+        System.out.println("test " + authToken + " "+ reimburseID + " " + status);
         boolean tokenIsValidFormat = authService.validateToken(authToken);
         if (!tokenIsValidFormat) {
             resp.sendError(400, "Improper token format.");

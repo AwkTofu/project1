@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Admin Login</title>
+    <title>Register</title>
 </head>
 <body>
-<h2>Welcome to the Admin Login</h2>
+<h2>Create new Account</h2>
 <input id="username">
 <input id="password" type="password">
 <button id="login-btn">Log In!</button>
